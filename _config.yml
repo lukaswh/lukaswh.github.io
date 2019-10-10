@@ -1,2 +1,13 @@
 name: Lukas White
-markdown: kramdown
+# markdown: kramdown
+
+currently_living: San Francisco, CA
+currently_working: Project Manager
+currently_learning: Swahili
+currently_reading: The Magic of Thinking Big
+
+collections:
+  projects:
+    output: true
+  reading:
+    output: true

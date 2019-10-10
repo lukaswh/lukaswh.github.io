@@ -1,0 +1,9 @@
+---
+layout: default
+title: Lukas's Reading List
+---
+<ul>
+    {% for book in site.reading %}
+    <li><a href="{{ book.url }}"> {{ book.title }} </a></li>
+    {% endfor %}
+</ul>
